@@ -1,3 +1,4 @@
+//Raul Catalan, CSC360, Class #: 85141
 package cse360assign2;
 
 public class AddingMachine {
