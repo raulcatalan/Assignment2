@@ -1,3 +1,6 @@
+//Raul Catalan, Class #: 85141, Assignment 3
+//This is the calculator class that is a subclass of AddingMachine
+//It contains more functions that addingMachine such as multiplication, division, and exponents
 package cse360assign3;
 
 public class Calculator extends AddingMachine {

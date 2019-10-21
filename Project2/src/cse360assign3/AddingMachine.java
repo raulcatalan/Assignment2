@@ -17,23 +17,26 @@ public class AddingMachine {
 		return total;
 	}
 	
+	//This function adds a value to the variable total and appends the function to the history
 	public void add (int value) {
 		//total is added with the value, string history is append what was added to total.
 		total += value;
 		history += " + " + value;
 	}
 	
+	//This function subtracts a value to the variable total and appends the function to the history
 	public void subtract (int value) {
 		//total is subtracted with the value, string history is append what was subtracted to total.
 		total -= value;
 		history += " - " + value;
 	}
-		
+
+	//This function prints the string 'history' which has all recorded functions made on the total
 	public String toString () {
 		return history;
 	}
 	
-	//clears the value in total and sets history = 0 for new log of functions
+	//clears the value in total and sets history = 0 for new history of functions
 	public void clear() {
 		total = 0;
 		history = "0";
