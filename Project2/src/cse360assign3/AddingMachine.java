@@ -1,10 +1,11 @@
-//Raul Catalan, CSC360, Class #: 85141
-package cse360assign2;
+//Raul Catalan, Class #: 85141, Assignment 3
+//This file contains the class AddingMachine which can be called on to arithmetic
+package cse360assign3;
 
 public class AddingMachine {
 
-	private int total;
-	private String history;
+	protected int total;
+	protected String history;
 	
 	public AddingMachine () {
 		total = 0;  // not needed - included for clarity
